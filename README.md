@@ -66,9 +66,14 @@ minorproject/
   - **Macro F1 Score**: `0.6109`
 
 ### 2. 🧠 Alzheimer's Disease Stage Classification
+- **Architecture**: Pretrained `EfficientNet-B0` with custom classification head and fine-tuned top feature layers.
 - **Data Modality**: Structural Brain Magnetic Resonance Imaging (MRI).
-- **Target Categories**: `Non-Demented`, `Mild Demented`, and `Moderate Demented`.
-- **Dataset Property**: Balanced and augmented MRI cohort designed to mitigate class imbalance issues in neuroimaging.
+- **Target Categories (4 stages)**: `MildDemented`, `ModerateDemented`, `NonDemented`, and `VeryMildDemented`.
+- **Key Metrics**:
+  - **Test Accuracy**: `58.83%`
+  - **Macro F1 Score**: `0.5793`
+  - **Cohen's Kappa Score**: `0.4511`
+  - **Artifacts**: `best_alzheimer_model.pth`, `confusion_matrix.png`, `training_metrics.png`, `train.ipynb`.
 
 ### 3. 📊 Chronic Disease Progression & Patient Profiling
 - **Dataset**: 3,000 multi-factorial patient records tracking demographics, vital signs, sleep, activity, biomarker scores, cognitive indices, and medication adherence.
@@ -91,6 +96,9 @@ minorproject/
 | **Diabetic Retinopathy Grading** | PyTorch EfficientNet-B0 | Quadratic Weighted Kappa (QWK) | **0.8476** |
 | | | Test Accuracy | **76.91%** |
 | | | Test Macro F1 | **0.6109** |
+| **Alzheimer's Stage Classification** | PyTorch EfficientNet-B0 | Test Accuracy | **58.83%** |
+| | | Test Macro F1 | **0.5793** |
+| | | Cohen's Kappa | **0.4511** |
 | **Chronic Disease Classification** | Random Forest Classifier | Classification Accuracy | **90.50%** |
 | | | Weighted F1 Score | **0.91** |
 | **Biomarker Progression** | Multiple Linear Regression | $R^2$ Variance Explained | **0.7971** |

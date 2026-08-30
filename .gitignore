@@ -15,3 +15,10 @@ env/
 # OS specific files
 .DS_Store
 Thumbs.db
+
+# Large Datasets and Archives
+ntua-parkinson-dataset-master/
+**/ntua-parkinson-dataset-master/
+*.zip
+*.tar.gz
+*.rar

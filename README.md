@@ -10,7 +10,8 @@ Chronic illnesses such as diabetes and neurodegenerative disorders place a sever
 
 1. **Diabetic Retinopathy Classification**: Deep transfer learning (PyTorch + EfficientNet-B0) to grade retinal fundus images across 5 clinical severity levels.
 2. **Alzheimer's Disease Detection**: Brain MRI classification across cognitive impairment stages (*Non-Demented*, *Mild Cognitive Impairment*, and *Moderate Dementia*).
-3. **Chronic Disease Progression & Clinical Modeling**:
+3. **Parkinson's Disease Detection**: Deep transfer learning with Attention-based Multiple Instance Learning (PyTorch + ResNet-18 MIL) on DaTscan SPECT images for subject-level diagnosis.
+4. **Chronic Disease Progression & Clinical Modeling**:
    - **Disease Classification**: Multi-class Random Forest predicting underlying diagnosis (*Diabetes*, *Alzheimer's*, *Parkinson's*).
    - **Progression Regression**: Multiple Linear Regression (MLR) predicting continuous biomarker score evolution.
    - **Unsupervised Patient Segmentation**: K-Means clustering identifying distinct patient risk profiles from multi-dimensional clinical vitals.
@@ -40,6 +41,14 @@ minorproject/
 │   ├── best_diabetic_retinopathy_model.pth # Trained PyTorch EfficientNet-B0 weights
 │   ├── confusion_matrix.png            # Model confusion matrix plot
 │   └── train.ipynb                     # PyTorch training, validation, and evaluation pipeline
+│
+├── parkinsons-disease-prediction/
+│   ├── ntua-parkinson-dataset-master/  # Multi-subject DaTscan SPECT and MRI benchmark (78 subjects)
+│   ├── best_parkinsons_dat_model.pth   # Saved PyTorch Attention-MIL weights
+│   ├── confusion_matrix.png            # Subject-level confusion matrix plot
+│   ├── training_metrics.png            # Loss and accuracy progression curves
+│   ├── roc_curve.png                   # Receiver Operating Characteristic (ROC) curve
+│   └── train.py                        # Subject-level MIL training, validation, and evaluation script
 │
 └── Chronic disease prediction models/
     ├── chronic_disease_progression.csv.xls # Clinical dataset (3,000 patient records, 26 features)
@@ -75,7 +84,17 @@ minorproject/
   - **Cohen's Kappa Score**: `0.4511`
   - **Artifacts**: `best_alzheimer_model.pth`, `confusion_matrix.png`, `training_metrics.png`, `train.ipynb`.
 
-### 3. 📊 Chronic Disease Progression & Patient Profiling
+### 3. 🔬 Parkinson's Disease Detection (DaTscan SPECT)
+- **Architecture**: Pretrained `ResNet-18` feature backbone paired with **Gated Attention Multiple-Instance Learning (MIL)** for subject-level feature pooling.
+- **Data Modality**: Dopamine Transporter Single-Photon Emission Computed Tomography (DaTscan SPECT) imaging.
+- **Target Categories**: `Parkinson's Disease (PD)` vs. `Non-PD Controls` (including real-world clinic differential diagnoses: Essential Tremor, SWEDD, Dystonia).
+- **Key Metrics**:
+  - **Test Accuracy (Subject-Level)**: `70.00%`
+  - **Test Sensitivity / Recall (PD)**: `100.00%`
+  - **Binary F1 Score**: `0.8235`
+  - **Artifacts**: `best_parkinsons_dat_model.pth`, `confusion_matrix.png`, `training_metrics.png`, `roc_curve.png`, `train.py`.
+
+### 4. 📊 Chronic Disease Progression & Patient Profiling
 - **Dataset**: 3,000 multi-factorial patient records tracking demographics, vital signs, sleep, activity, biomarker scores, cognitive indices, and medication adherence.
 - **Supervised Classification (Random Forest)**:
   - Predicts diagnosis (`Diabetes`, `Alzheimer's`, `Parkinson's`).
@@ -99,6 +118,9 @@ minorproject/
 | **Alzheimer's Stage Classification** | PyTorch EfficientNet-B0 | Test Accuracy | **58.83%** |
 | | | Test Macro F1 | **0.5793** |
 | | | Cohen's Kappa | **0.4511** |
+| **Parkinson's Disease Detection** | PyTorch ResNet-18 + Attention-MIL | Test Sensitivity (PD Recall) | **100.00%** |
+| | | Test Accuracy (Subject-Level) | **70.00%** |
+| | | Binary F1 Score | **0.8235** |
 | **Chronic Disease Classification** | Random Forest Classifier | Classification Accuracy | **90.50%** |
 | | | Weighted F1 Score | **0.91** |
 | **Biomarker Progression** | Multiple Linear Regression | $R^2$ Variance Explained | **0.7971** |

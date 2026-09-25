@@ -21,8 +21,19 @@ For complete architectural details, please refer to the respective agent documen
 
 ---
 
+## 🙏 Dataset Credits & Clinical Benchmarks
+
+The RetinaAgent ecosystem is trained and evaluated using the following benchmark datasets:
+
+1. **APTOS 2019 Blindness Detection**: Asia Pacific Tele-Ophthalmology Society (5-stage ICDR grading).
+2. **IDRiD (Indian Diabetic Retinopathy Image Dataset)**: IEEE Dataport (Pixel-level Microaneurysms, Haemorrhages, Hard/Soft Exudates segmentation).
+3. **BRSET / MM-Fundus (Brazilian Multilabel Ophthalmological Dataset)**: PhysioNet (Fundus images paired with structured clinical/referral records).
+
+---
+
 ## 👥 Contributors
 
 - **Divyanshu** ([@Divyanshu227](https://github.com/Divyanshu227))
 - **Prem Shaw** ([@Premshaw23](https://github.com/Premshaw23))
+
 

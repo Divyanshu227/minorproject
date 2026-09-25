@@ -4,7 +4,7 @@
 
 The implementation is maintained in the Kaggle notebook:
 
-**Kaggle:** https://www.kaggle.com/code/premshaw23/notebook884288cf97/edit
+**Kaggle:** https://www.kaggle.com/code/premshaw23/clinical-note-agent/edit/run/352768812
 
 Use the notebook to run and inspect the Clinical-Note Agent implementation described in this README.
 

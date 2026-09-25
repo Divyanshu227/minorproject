@@ -50,6 +50,13 @@ minorproject/
 │   ├── roc_curve.png                   # Receiver Operating Characteristic (ROC) curve
 │   └── train.py                        # Subject-level MIL training, validation, and evaluation script
 │
+├── RetinaAgent/
+│   └── ImageAgent/
+│       ├── ImageAgent.ipynb          # Multi-task Swin-Transformer (Swin-T) vision agent
+│       ├── ImageAgentRawCode.ipynb   # Raw notebook and training execution logs
+│       └── README.md                 # ImageAgent technical architecture & inference guide
+│
+├── IMAGE_CLASSIFICATION_TRAINING_GUIDE.md # Technical guide for image classification models
 └── Chronic disease prediction models/
     ├── chronic_disease_progression.csv.xls # Clinical dataset (3,000 patient records, 26 features)
     ├── clustering_classification.ipynb     # K-Means clustering & Random Forest disease classifier

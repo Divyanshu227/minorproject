@@ -202,6 +202,11 @@ We express our sincere gratitude to the authors and creators of the open-source 
    - **Kaggle Dataset**: [Parkinson's Disease fMRI Images](https://www.kaggle.com/datasets/salmaneunus/parkinsons-disease-fmri-images)
    - **Description**: Functional Magnetic Resonance Imaging (fMRI) brain image dataset designed for automated Parkinson's disease detection and classification.
 
+## 👥 Contributors
+
+- **Divyanshu** ([@Divyanshu227](https://github.com/Divyanshu227))
+- **Prem Shaw** ([@Premshaw23](https://github.com/Premshaw23))
+
 ---
 
 ## ⚖️ Disclaimer

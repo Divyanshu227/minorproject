@@ -155,5 +155,13 @@ if result["review_required"]:
 
 ---
 
+## 👥 Contributors
+
+- **Divyanshu** ([@Divyanshu227](https://github.com/Divyanshu227))
+- **Prem Shaw** ([@Premshaw23](https://github.com/Premshaw23))
+
+---
+
 ## ⚖️ Clinical Disclaimer
 The Grader Agent is intended for clinical decision support and research. It incorporates multi-criteria safety gates and Test-Time Augmentation consistency checks to detect diagnostic ambiguities; all recommendations must be reviewed and confirmed by licensed eye-care specialists.
+

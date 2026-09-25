@@ -139,5 +139,13 @@ if report["review_reason"]:
 
 ---
 
+## 👥 Contributors
+
+- **Divyanshu** ([@Divyanshu227](https://github.com/Divyanshu227))
+- **Prem Shaw** ([@Premshaw23](https://github.com/Premshaw23))
+
+---
+
 ## ⚖️ Clinical Safety Disclaimer
 The Consistency Checker Agent is designed as a safety guardrail. Cases flagged with `review_required = True` or `consistency_status = "INCONSISTENT"` indicate diagnostic instability or significant missing clinical context and require mandatory verification by a licensed ophthalmologist prior to any clinical intervention.
+

@@ -18,3 +18,11 @@ All RetinaAgent notebooks, blackboards, and models are available in the official
 - **[Consistency Checker Agent](file:///c:/Users/divya/Desktop/minorproject/RetinaAgent/ConsitencyCheckerAgent/README.md)**: Clinical safety and verification agent auditing Test-Time Augmentation (TTA) consistency, confidence calibration, and referral completeness.
 
 For complete architectural details, please refer to the respective agent documentation.
+
+---
+
+## 👥 Contributors
+
+- **Divyanshu** ([@Divyanshu227](https://github.com/Divyanshu227))
+- **Prem Shaw** ([@Premshaw23](https://github.com/Premshaw23))
+

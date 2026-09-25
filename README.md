@@ -187,30 +187,35 @@ jupyter notebook
 
 We express our sincere gratitude to the authors, research groups, and clinical organizations for open-sourcing the datasets utilized across this project:
 
-1. **APTOS 2019 Blindness Detection Benchmark**
+1. **Diabetic Retinopathy 224x224 (2019 Data)**
+   - **Author / Contributor**: **Sovit Rath** ([@sovitrath](https://www.kaggle.com/sovitrath))
+   - **Kaggle Dataset**: [Diabetic Retinopathy 224x224 (2019 Data)](https://www.kaggle.com/datasets/sovitrath/diabetic-retinopathy-224x224-2019-data/)
+   - **Description**: High-quality resized $224 \times 224$ retinal fundus photography dataset derived from the APTOS 2019 Blindness Detection challenge, utilized for training the EfficientNet-B0 Diabetic Retinopathy grading model.
+
+2. **APTOS 2019 Blindness Detection Benchmark**
    - **Organization**: **Asia Pacific Tele-Ophthalmology Society (APTOS)**
-   - **Source**: [Kaggle APTOS 2019 Blindness Detection](https://www.kaggle.com/c/aptos2019-blindness-detection) & [Diabetic Retinopathy 224x224 (Sovit Rath)](https://www.kaggle.com/datasets/sovitrath/diabetic-retinopathy-224x224-2019-data/)
+   - **Source**: [Kaggle APTOS 2019 Blindness Detection](https://www.kaggle.com/c/aptos2019-blindness-detection)
    - **Description**: Clinical fundus photography benchmark graded across 5 Diabetic Retinopathy severity stages for image classification and Swin-T feature extraction.
 
-2. **IDRiD (Indian Diabetic Retinopathy Image Dataset)**
+3. **IDRiD (Indian Diabetic Retinopathy Image Dataset)**
    - **Organization**: **IEEE Dataport / IDRiD Consortium**
    - **Source**: [IEEE Dataport IDRiD](https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid)
    - **Description**: Expert pixel-level annotations for micro-vascular lesion segmentation (Microaneurysms, Haemorrhages, Hard Exudates, and Soft Exudates).
 
-3. **BRSET / MM-Fundus (Brazilian Multilabel Ophthalmological Dataset & Multimodal Fundus Benchmark)**
+4. **BRSET / MM-Fundus (Brazilian Multilabel Ophthalmological Dataset & Multimodal Fundus Benchmark)**
    - **Organization / Authors**: **PhysioNet / BRSET Research Group**
    - **Source**: [BRSET (PhysioNet)](https://physionet.org/content/brazilian-ophthalmological/1.0.0/)
    - **Description**: Multi-modal retinal fundus photography coupled with structured patient metadata (HbA1c, diabetes duration, visual acuity, lens status) used in clinical entity extraction.
 
-4. **Alzheimer's Multiclass Dataset (Equal and Augmented)**
+5. **Alzheimer's Multiclass Dataset (Equal and Augmented)**
    - **Author / Contributor**: **Aryan Singhal** ([@aryansinghal10](https://www.kaggle.com/aryansinghal10))
    - **Source**: [Alzheimer's Multiclass Dataset: Equal and Augmented](https://www.kaggle.com/datasets/aryansinghal10/alzheimers-multiclass-dataset-equal-and-augmented)
    - **Description**: Augmented brain MRI scan collection enabling balanced multi-class training for Alzheimer's cognitive impairment stages.
 
-5. **NTUA Parkinson's DaTscan SPECT & fMRI Benchmark**
-   - **Organization / Contributors**: **National Technical University of Athens (NTUA)** & **Salman Eunus** ([@salmaneunus](https://www.kaggle.com/salmaneunus))
-   - **Source**: [NTUA DaTscan Benchmark](https://github.com/) & [Parkinson's Disease fMRI Images](https://www.kaggle.com/datasets/salmaneunus/parkinsons-disease-fmri-images)
-   - **Description**: Multi-subject DaTscan SPECT image series and functional MRI scans for subject-level neurodegenerative disorder classification.
+6. **Parkinson's Disease fMRI Images & NTUA DaTscan Benchmark**
+   - **Author / Organization**: **Salman Eunus** ([@salmaneunus](https://www.kaggle.com/salmaneunus)) & **National Technical University of Athens (NTUA)**
+   - **Source**: [Parkinson's Disease fMRI Images](https://www.kaggle.com/datasets/salmaneunus/parkinsons-disease-fmri-images)
+   - **Description**: Functional Magnetic Resonance Imaging (fMRI) brain image dataset and multi-subject DaTscan SPECT series for automated Parkinson's disease detection and classification.
 
 ## 👥 Contributors
 

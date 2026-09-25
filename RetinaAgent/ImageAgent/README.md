@@ -1,9 +1,12 @@
 # 👁️ RetinaAgent: Autonomous Multi-Task Medical Vision Agent for Retinal Disease Diagnostics
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C.svg?style=flat&logo=pytorch)](https://pytorch.org/)
+[![Kaggle Collection](https://img.shields.io/badge/Kaggle-Collection%2019217866-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/work/collections/19217866)
 [![Vision Backbone](https://img.shields.io/badge/Backbone-Swin--Tiny-blue.svg)](https://github.com/huggingface/pytorch-image-models)
 [![Task](https://img.shields.io/badge/Task-Classification%20%7C%20Segmentation%20%7C%20Explainability-green.svg)]()
 [![Safety](https://img.shields.io/badge/Clinical%20Guard-TTA%20Uncertainty-critical.svg)]()
+
+> **Kaggle Collection:** [RetinaAgent Collection (19217866)](https://www.kaggle.com/work/collections/19217866)
 
 **RetinaAgent** is an intelligent, multi-task computer vision agent designed for automated grading, lesion segmentation, explainable localization, and uncertainty-aware clinical triage of **Diabetic Retinopathy (DR)** from digital fundus photography.
 

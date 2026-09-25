@@ -2,6 +2,14 @@
 
 RetinaAgent is a medical vision agent ecosystem for autonomous ophthalmic assessment, lesion segmentation, explainable localization, and multi-agent clinical decision support.
 
+## 🌐 Kaggle Collection
+
+All RetinaAgent notebooks, blackboards, and models are available in the official Kaggle collection:
+
+**Collection Link:** [RetinaAgent Kaggle Collection (19217866)](https://www.kaggle.com/work/collections/19217866)
+
+[![Kaggle Collection](https://img.shields.io/badge/Kaggle-RetinaAgent%20Collection-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/work/collections/19217866)
+
 ## 📂 Submodules
 
 - **[ImageAgent](file:///c:/Users/divya/Desktop/minorproject/RetinaAgent/ImageAgent/README.md)**: Multi-task Swin-Transformer (Swin-T) vision agent for Diabetic Retinopathy 5-stage grading, IDRiD lesion segmentation (Microaneurysms, Haemorrhages, Hard/Soft Exudates), Grad-CAM explainability, connected component bounding box extraction, and Test-Time Augmentation (TTA) uncertainty guardrails.

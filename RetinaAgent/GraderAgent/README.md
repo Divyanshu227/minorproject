@@ -1,9 +1,12 @@
 # 🩺 RetinaAgent — Grader Agent
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C.svg?style=flat&logo=pytorch)](https://pytorch.org/)
+[![Kaggle Collection](https://img.shields.io/badge/Kaggle-Collection%2019217866-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/work/collections/19217866)
 [![Multi-Agent](https://img.shields.io/badge/Role-Diagnostic%20Synthesis-blue.svg)]()
 [![Architecture](https://img.shields.io/badge/Architecture-Blackboard%20StateGraph-orange.svg)]()
 [![Safety](https://img.shields.io/badge/Clinical%20Guard-TTA%20%26%20Anti--Fabrication-critical.svg)]()
+
+> **Kaggle Collection:** [RetinaAgent Collection (19217866)](https://www.kaggle.com/work/collections/19217866)
 
 The **Grader Agent** serves as the central diagnostic synthesis hub within the **RetinaAgent** pipeline. It bridges visual diagnostic evidence from the **ImageAgent** and structured patient metadata from the **Clinical Note Agent**, producing a unified diagnostic assessment and propagating explainability artifacts down the clinical decision pipeline.
 

@@ -1,9 +1,12 @@
 # 🔍 RetinaAgent — Consistency Checker Agent
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C.svg?style=flat&logo=pytorch)](https://pytorch.org/)
+[![Kaggle Collection](https://img.shields.io/badge/Kaggle-Collection%2019217866-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/work/collections/19217866)
 [![Multi-Agent](https://img.shields.io/badge/Role-Safety%20%26%20Consistency%20Audit-blue.svg)]()
 [![Architecture](https://img.shields.io/badge/Architecture-Blackboard%20StateGraph-orange.svg)]()
 [![Safety Guard](https://img.shields.io/badge/Clinical%20Guard-TTA%20%26%20Completeness%20Gate-critical.svg)]()
+
+> **Kaggle Collection:** [RetinaAgent Collection (19217866)](https://www.kaggle.com/work/collections/19217866)
 
 The **Consistency Checker Agent** is the clinical safety and verification component within the **RetinaAgent** diagnostic ecosystem. It acts as an automated validation guardrail that verifies diagnostic stability across Test-Time Augmentation (TTA) views, audits confidence thresholds, assesses clinical record completeness, and enforces human-in-the-loop ophthalmologist escalation policies.
 
